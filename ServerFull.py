@@ -8,7 +8,7 @@ import yaml
 
 # Load spaCy models
 models = {
-    "en": spacy.load("en_core_web_trf"),
+    "en": spacy.load("en_core_web_sm"),
     "fr": spacy.load("fr_core_news_sm")
 }
 
